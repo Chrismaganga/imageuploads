@@ -1,0 +1,38 @@
+{
+  "name": "imageuploads",
+  "version": "1.0.0",
+  "description": "image-uploads",
+  "main": "server.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chrismaganga"
+  },
+  "keywords": [
+    "express-images"
+  ],
+  "author": "Chris",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.7.9",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "http-status-codes": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "require": "^2.4.20",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
